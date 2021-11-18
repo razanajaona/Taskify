@@ -1,0 +1,81 @@
+* {
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.traitement1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("image/alejandro-escamilla-tAKXap853rY-unsplash.jpg");
+    background-size: cover;
+    color: #fff;
+    margin: auto;
+    width: 30%;
+    margin-bottom: 1.5em;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(119, 103, 103, 0.5);
+}
+em{
+    color: chocolate;
+}
+
+.traitement2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("image/jan-kahanek-fVUl6kzIvLg-unsplash.jpg");
+    background-size: cover;
+    margin: auto;
+    width: 30%;
+    color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(119, 103, 103, 0.5);
+}
+h1{
+    color: #fff;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    text-align: center;
+    background: none;
+    padding: 0.5em;
+    color: #fff;
+}
+button{
+    background: chocolate;
+    color: #fff;
+    padding: 0.5em;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+#top{
+    position: relative;
+    top: 40px;
+}
+.Apropos{
+   width:300px;
+   box-shadow: 0 4px 10px rgba(119, 103, 103, 0.5);
+   
+}
+h3{
+    text-align: center;
+}
+p{
+    padding: 0.5em ;
+}
+nav{
+    background-color: chocolate;
+}
